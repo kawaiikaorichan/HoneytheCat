@@ -143,13 +143,6 @@ uint16_t Honey_HandIndices_DC[] = {
 	4, 12,
 };
 
-uint16_t HoneyK_HandIndices_DC[] = {
-	0, 0,
-	1, 1,
-	5, 3,
-	4, 2,
-};
-
 uint16_t Honey_ShovelClawIndices_DC[] = {
 	0, 10,
 	1, 3,
@@ -250,20 +243,20 @@ void __cdecl InitKnucklesWeldInfo_mod()
 	KnucklesWeldInfo[9].VertexBuffer = 0;
 	KnucklesWeldInfo[10].BaseModel = *KNUCKLES_OBJECTS;
 	KnucklesWeldInfo[10].ModelA = KNUCKLES_OBJECTS[20];
-	KnucklesWeldInfo[10].ModelB = KNUCKLES_OBJECTS[5];
-	KnucklesWeldInfo[10].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	KnucklesWeldInfo[10].ModelB = KNUCKLES_OBJECTS[65];
+	KnucklesWeldInfo[10].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	KnucklesWeldInfo[10].WeldType = 2;
 	KnucklesWeldInfo[10].anonymous_5 = 0;
 	KnucklesWeldInfo[10].VertexBuffer = 0;
-	KnucklesWeldInfo[10].VertIndexes = HoneyK_HandIndices_DC;
+	KnucklesWeldInfo[10].VertIndexes = Honey_HandIndices_DC;
 	KnucklesWeldInfo[11].BaseModel = *KNUCKLES_OBJECTS;
 	KnucklesWeldInfo[11].ModelA = KNUCKLES_OBJECTS[22];
 	KnucklesWeldInfo[11].ModelB = KNUCKLES_OBJECTS[9];
-	KnucklesWeldInfo[11].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	KnucklesWeldInfo[11].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	KnucklesWeldInfo[11].WeldType = 2;
 	KnucklesWeldInfo[11].anonymous_5 = 0;
 	KnucklesWeldInfo[11].VertexBuffer = 0;
-	KnucklesWeldInfo[11].VertIndexes = HoneyK_HandIndices_DC;
+	KnucklesWeldInfo[11].VertIndexes = Honey_HandIndices_DC;
 	KnucklesWeldInfo[12].BaseModel = KNUCKLES_OBJECTS[1];
 	KnucklesWeldInfo[12].ModelA = KNUCKLES_OBJECTS[24];
 	KnucklesWeldInfo[12].ModelB = KNUCKLES_OBJECTS[25];
@@ -347,20 +340,20 @@ void __cdecl InitKnucklesWeldInfo_mod()
 	KnucklesWeldInfo[21].VertIndexes = Honey_ShoeIndices_DC;
 	KnucklesWeldInfo[22].BaseModel = KNUCKLES_OBJECTS[1];
 	KnucklesWeldInfo[22].ModelA = KNUCKLES_OBJECTS[42];
-	KnucklesWeldInfo[22].ModelB = KNUCKLES_OBJECTS[27];
-	KnucklesWeldInfo[22].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	KnucklesWeldInfo[22].ModelB = KNUCKLES_OBJECTS[73];
+	KnucklesWeldInfo[22].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	KnucklesWeldInfo[22].WeldType = 2;
 	KnucklesWeldInfo[22].anonymous_5 = 0;
 	KnucklesWeldInfo[22].VertexBuffer = 0;
-	KnucklesWeldInfo[22].VertIndexes = HoneyK_HandIndices_DC;
+	KnucklesWeldInfo[22].VertIndexes = Honey_HandIndices_DC;
 	KnucklesWeldInfo[23].BaseModel = KNUCKLES_OBJECTS[1];
 	KnucklesWeldInfo[23].ModelA = KNUCKLES_OBJECTS[44];
 	KnucklesWeldInfo[23].ModelB = KNUCKLES_OBJECTS[31];
-	KnucklesWeldInfo[23].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	KnucklesWeldInfo[23].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	KnucklesWeldInfo[23].WeldType = 2;
 	KnucklesWeldInfo[23].anonymous_5 = 0;
 	KnucklesWeldInfo[23].VertexBuffer = 0;
-	KnucklesWeldInfo[23].VertIndexes = HoneyK_HandIndices_DC;
+	KnucklesWeldInfo[23].VertIndexes = Honey_HandIndices_DC;
 	KnucklesWeldInfo[24].BaseModel = *KNUCKLES_OBJECTS;
 	KnucklesWeldInfo[24].ModelA = KNUCKLES_OBJECTS[5];
 	KnucklesWeldInfo[24].ModelB = 0;
@@ -505,20 +498,20 @@ void __cdecl InitNPCKnucklesWeldInfo_mod()
 	NPCKnucklesWeldInfo[9].VertexBuffer = 0;
 	NPCKnucklesWeldInfo[10].BaseModel = *KNUCKLES_OBJECTS;
 	NPCKnucklesWeldInfo[10].ModelA = KNUCKLES_OBJECTS[20];
-	NPCKnucklesWeldInfo[10].ModelB = KNUCKLES_OBJECTS[5];
-	NPCKnucklesWeldInfo[10].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	NPCKnucklesWeldInfo[10].ModelB = KNUCKLES_OBJECTS[65];
+	NPCKnucklesWeldInfo[10].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	NPCKnucklesWeldInfo[10].WeldType = 2;
 	NPCKnucklesWeldInfo[10].anonymous_5 = 0;
 	NPCKnucklesWeldInfo[10].VertexBuffer = 0;
-	NPCKnucklesWeldInfo[10].VertIndexes = HoneyK_HandIndices_DC;
+	NPCKnucklesWeldInfo[10].VertIndexes = Honey_HandIndices_DC;
 	NPCKnucklesWeldInfo[11].BaseModel = *KNUCKLES_OBJECTS;
 	NPCKnucklesWeldInfo[11].ModelA = KNUCKLES_OBJECTS[22];
 	NPCKnucklesWeldInfo[11].ModelB = KNUCKLES_OBJECTS[9];
-	NPCKnucklesWeldInfo[11].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	NPCKnucklesWeldInfo[11].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	NPCKnucklesWeldInfo[11].WeldType = 2;
 	NPCKnucklesWeldInfo[11].anonymous_5 = 0;
 	NPCKnucklesWeldInfo[11].VertexBuffer = 0;
-	NPCKnucklesWeldInfo[11].VertIndexes = HoneyK_HandIndices_DC;
+	NPCKnucklesWeldInfo[11].VertIndexes = Honey_HandIndices_DC;
 	NPCKnucklesWeldInfo[12].BaseModel = KNUCKLES_OBJECTS[1];
 	NPCKnucklesWeldInfo[12].ModelA = KNUCKLES_OBJECTS[24];
 	NPCKnucklesWeldInfo[12].ModelB = KNUCKLES_OBJECTS[25];
@@ -603,12 +596,12 @@ void __cdecl InitNPCKnucklesWeldInfo_mod()
 	NPCKnucklesWeldInfo[21].WeldType = 2;
 	NPCKnucklesWeldInfo[22].BaseModel = KNUCKLES_OBJECTS[1];
 	NPCKnucklesWeldInfo[22].ModelA = KNUCKLES_OBJECTS[42];
-	v4 = KNUCKLES_OBJECTS[27];
+	v4 = KNUCKLES_OBJECTS[73];
 	NPCKnucklesWeldInfo[22].anonymous_5 = 0;
 	NPCKnucklesWeldInfo[22].VertexBuffer = 0;
 	NPCKnucklesWeldInfo[22].ModelB = v4;
-	NPCKnucklesWeldInfo[22].VertIndexes = HoneyK_HandIndices_DC;
-	NPCKnucklesWeldInfo[22].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	NPCKnucklesWeldInfo[22].VertIndexes = Honey_HandIndices_DC;
+	NPCKnucklesWeldInfo[22].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	NPCKnucklesWeldInfo[22].WeldType = 2;
 	NPCKnucklesWeldInfo[23].BaseModel = KNUCKLES_OBJECTS[1];
 	NPCKnucklesWeldInfo[23].ModelA = KNUCKLES_OBJECTS[44];
@@ -617,12 +610,12 @@ void __cdecl InitNPCKnucklesWeldInfo_mod()
 	NPCKnucklesWeldInfo[23].VertexBuffer = 0;
 	NPCKnucklesWeldInfo[24].BaseModel = 0;
 	NPCKnucklesWeldInfo[24].ModelA = 0;
-	NPCKnucklesWeldInfo[23].VertIndexes = HoneyK_HandIndices_DC;
+	NPCKnucklesWeldInfo[23].VertIndexes = Honey_HandIndices_DC;
 	NPCKnucklesWeldInfo[24].ModelB = 0;
 	NPCKnucklesWeldInfo[24].VertexPairCount = 0;
 	NPCKnucklesWeldInfo[24].VertexBuffer = 0;
 	NPCKnucklesWeldInfo[23].ModelB = v5;
-	NPCKnucklesWeldInfo[23].VertexPairCount = (uint8_t)(LengthOfArray(HoneyK_HandIndices_DC) / 2);
+	NPCKnucklesWeldInfo[23].VertexPairCount = (uint8_t)(LengthOfArray(Honey_HandIndices_DC) / 2);
 	NPCKnucklesWeldInfo[23].WeldType = 2;
 	NPCKnucklesWeldInfo[24].VertIndexes = 0;
 }
